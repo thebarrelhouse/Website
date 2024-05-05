@@ -34,6 +34,8 @@ body, html {
     text-align: center;
     color: white;
     z-index: 2;
+    width: 80%;
+    max-width: 600px;
 }
 
 .pretext,
@@ -72,4 +74,22 @@ footer {
 
 footer a {
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+    
+    .main-heading {
+        font-size: 2.5em;
+    }
+    
+    .company-name {
+        font-size: 1.5em;
+    }
+    
+    .subtext {
+        font-size: 1.2em;
+    }
 }
